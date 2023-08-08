@@ -1,0 +1,262 @@
+body {
+    font-family: Hanken Grotesk, sans-serif;
+}
+@media (min-width:767px) {
+    .project {
+        width: 740px;
+        height: 520px;
+    }
+    .white {
+        width: 370px;
+        height: 520px;
+    }
+    .su {
+        padding: 50px 40px 30px;
+        font-size: x-large;
+    }
+    .blue {
+        width: 290px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+}
+@media (max-width: 767px) {
+    .project {
+        width: 370px;
+        height: 810px;
+    }
+    .it {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .white {
+        width: 370px;
+        height: 450px;
+    }
+    .su {
+        padding: 25px 40px 25px;
+        font-size: larger;
+    }
+    .blue {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 290px;
+    }
+}
+.project {
+    background-color: white;
+    box-shadow: 2px 14px 30px 30px #f1f4fd;
+    border-radius: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.white {
+    float: right;
+}
+.re, .me, .ve, .vi {
+    width:81,5%;
+    height:10,6%;
+    border-radius: 10px;
+    margin: 15px 40px;
+}
+.su {
+    font-weight: bold;  
+    color: #424b5c;
+    margin: 0;
+}
+.re, .me, .ve, .vi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    position: relative;
+}
+.re {
+    background-color: #fff6f5;
+    margin-top: 0;
+}
+.me {
+    background-color: #fffbf2;
+}
+.ve {
+    background-color: #f2fbfa;
+}
+.vi {
+    background-color: #f3f3fd;
+}
+
+.highval {
+    color: #8e8892;
+}
+.mainval {
+    color: #24293d; 
+    font-weight: 700;
+    padding-right: 10px;
+}
+svg {
+    padding: 0 15px 0 ;
+}
+.re p:first-of-type {
+    color: #d75861;
+    padding-right: 80px;
+    font-weight: 600;
+}
+.me p:first-of-type {
+    color: #eeb94f;
+    padding-right: 85px;
+    font-weight: 600;
+}
+.ve p:first-of-type {
+    color: #3f9f84;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.vi p:first-of-type {
+    color: #232aaf;
+    padding-right: 102px;
+    font-weight: 600;
+}
+.blue {
+    background-color: #303b59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    left: 40px;
+}
+.blue:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+.blue p:first-child {
+    color: white;
+}
+@media (min-width:767px) {
+.greblue {
+    width: 370px;
+    height: 520px;
+    background-image: linear-gradient(to top, #312de4, #6743ff );
+    border-radius: 35px;
+    position: relative;
+}    
+.greblue .you {
+        padding: 45px 0 60px 0;
+    }
+.content {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: linear-gradient(to top,#4633ed 50%, #4c22ca );
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.num {
+    height: 64.5px;
+    font-size:400%;
+    font-weight: 800;
+    padding-top: 45px;
+}
+.gr {
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 25px;
+    margin: 0;
+}
+.yo {
+    margin: 0px 70px;
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    color: #d3d0ff;
+    line-height: 22px;
+}
+}
+
+@media (max-width:767px) {
+
+    .greblue {
+        width: 370px;
+        height: 360px;
+    }    
+    .greblue .you {
+        padding: 30px 0 30px 0;
+    }
+    .content {
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+        top: 43%;
+    }
+    .num {
+        height: 64.5px;
+        font-size: 400%;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    .gr {
+        font-size: 150%;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .yo {
+        margin: 0 40px;
+        position: absolute;
+        top: 280px;
+    }
+}
+.greblue {
+    background-image: linear-gradient(to top, #312de4, #6743ff );
+    border-radius: 35px;
+    position: relative;
+}
+.greblue .you {
+    margin: 0;
+    text-align: center;
+    color: #d0c7ff;
+    font-weight: 700;
+    font-size: large;
+}
+.content {
+    background-image: linear-gradient(to top,#4633ed 50%, #4c22ca );
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.num {
+    color: #fffff8;
+    text-align: center;
+    margin: 0;
+}
+.hinum {
+    margin: 0;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: #887bff;
+    font-weight: 700;
+}
+.gr {
+    color: white;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.yo {
+    text-align: center;
+    color: #d3d0ff;
+    line-height: 22px;
+}
